@@ -1,0 +1,227 @@
+body{
+    background-color: white;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: rgb(28, 103, 63);
+    font-weight: 600;
+    margin-left: 300px;
+}
+  
+h2{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 700;
+    margin-left: 15px;
+
+}
+
+h3{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    margin-left: 15px;
+}
+
+
+/*                                               Partie entête                                                           */
+
+
+#banner_notre_produit{
+    margin-left: 110px;
+    margin-top: 30px;
+    grid-template-columns: 1fr 1fr;
+    display: inline;
+    grid-gap: 16px;
+    color: white;
+}
+
+
+#logo_agence{
+    width: 140px;
+    padding-left: 18px;
+    padding-bottom: 15px;
+    margin-top: 13px;
+}
+
+#first_banner{
+    grid-template-columns: 1fr 1fr ;
+    display: grid;
+    grid-gap: 16px;
+    background-color: #22DB99;
+    height: 85px;
+}
+
+
+.text_inline{
+    list-style-type: none;
+    display: inline;
+}
+
+.btn-brown{
+    background-color: black;
+    color: black;
+    font-weight: 600;
+    border-radius: 51px;
+    font-family: 'Chivo', sans-serif;
+    padding: 10px 40px;
+}
+
+
+
+#text_decoration{
+    text-decoration: none;
+    font-family: 'Chivo', sans-serif;
+    color: white;
+    font-weight: 570;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+
+
+.text_button{
+    text-decoration: none;
+    font-family: 'Chivo', sans-serif;
+    color: white;
+    font-weight: 570;
+}
+
+.btn-brown:hover{
+    background-color: #eae0b7;
+}
+
+
+
+#banner_menu{
+    text-decoration: none;
+    margin-left: 230px;
+    grid-template-columns: 1fr 1fr ;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.text_button btn-brown{
+    padding-top: 80px;
+}
+
+#tarif_banner{
+    padding-top: 35px;
+}
+
+#banner_button{
+    padding-top: 35px;
+    padding-right: 50px;
+}
+
+
+
+/*                                               Produit                                                          */
+
+
+.container{
+    width: 700px;
+    margin: 50px auto;
+}
+
+
+.card-white{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 10px 20px rgba(42, 129, 49, 0.583);
+}
+  
+.card-white-img{
+    height: 250px;
+    width: 90%;
+    object-fit: cover;
+    margin-left: 30px;
+}
+  
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#btn-black_banner{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+    border-radius: 51px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#bouton{
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-bottom: 150px;
+}
+
+#btn-black_banner:hover{
+    background-color: #eae0b7;
+}
+
+
+/*                                               Bas de page                                                          */
+
+
+
+
+#footer{
+    margin-top: 100px;
+    background-color: black;
+    text-align: center;
+    color: black;
+    height: 150px;
+    }
+    
+.footer_p{
+    padding-top: 70px;
+    color: black;
+}
+
+
+
+/*                                               responsive telephone                                                          */
+
+
+
+
+@media(max-width: 1000px) {
+    body{
+        background-color: white;
+        font-family: 'Chivo', sans-serif;
+        font-weight: 500;
+        font-size: 11px;
+        margin: 0;
+    }
+    
+    h1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 50px;
+        color: rgb(28, 103, 63);
+        font-weight: 600;
+        margin-left: 230px;
+    }
+      
+    h2{
+        font-family: 'Chivo', sans-serif;
+        font-weight: 700;
+        margin-left: 15px;
+        font-size: 20px;
+
+    
+    }
+}
