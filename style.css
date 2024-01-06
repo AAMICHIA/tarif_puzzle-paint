@@ -47,7 +47,7 @@ li{
     margin-top: 30px;
     grid-template-columns: 1fr 1fr;
     display: inline;
-    grid-gap: 16px;
+    grid-gap: 5px;
     color: white;
 }
 
@@ -110,10 +110,10 @@ li{
 
 #banner_menu{
     text-decoration: none;
-    margin-left: 230px;
+    margin-left: 80px;
     grid-template-columns: 1fr 1fr ;
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 60px;
 }
 
 .text_button btn-brown{
@@ -126,7 +126,7 @@ li{
 
 #banner_button{
     padding-top: 35px;
-    padding-right: 50px;
+    padding-right: 0px;
 }
 
 
@@ -242,8 +242,8 @@ li{
 @media(max-width: 1000px) {
 
     .image_kit{
-        height:600px;
-        width:450px
+        height:550px;
+        width:410px
     }
 
     #image_accessoire{
