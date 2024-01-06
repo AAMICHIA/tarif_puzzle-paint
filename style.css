@@ -24,14 +24,23 @@ h2{
 h3{
     font-family: 'Chivo', sans-serif;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
+    font-size:17px;
 }
 
 p{
     text-align: justify;
     margin-left: 15px;
+    font-size: 15px;
 }
 
+li{
+    list-style-type: circle;
+}
+
+li:before{
+    color:#28c78f;
+}
 
 /*                                               Partie entête                                                           */
 
@@ -150,6 +159,9 @@ p{
 .cards{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top:60px;
+    margin-bottom:40px;
+    grid-gap:10px;
 }
 
 
@@ -200,15 +212,28 @@ p{
 
 }
 
-#kit_manuelle_texte{
+.kit_manuelle_texte{
     width:1125px;
-    margin-top: 10px;
 }
 
 
 .image_kit{
-    height:500px;
-    width:450px
+    height:480px;
+    width:470px;
+}
+
+#image_accessoire{
+    height:580px;
+    width:470px;
+}
+
+.div_desc{
+    margin-bottom:40px;
+}
+
+.p_desc{
+    font-size: 15px;
+    margin-left: 30px;
 }
 
 
@@ -224,10 +249,16 @@ p{
         width:500px
     }
 
+    #image_accessoire{
+        height:800px;
+        width:500px 
+    }
+
     .kit_manuelle_texte{
         width:1000px;
         margin-top: 10px;
     }
+
     
 
 
@@ -277,8 +308,8 @@ p{
     h3{
         font-family: 'Chivo', sans-serif;
         font-weight: 700;
-        text-align: center;
-        font-size: 15px;
+        text-align: left;
+        font-size: 13px;
 
     }
 
@@ -304,6 +335,14 @@ p{
         margin-top: 170px;
         margin-left: 300px;
         margin-bottom: 150px;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top:60px;
+        margin-bottom:40px;
+        grid-gap:70px;
     }
 
 }
