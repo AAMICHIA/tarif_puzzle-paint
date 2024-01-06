@@ -38,9 +38,6 @@ li{
     list-style-type: circle;
 }
 
-li:before{
-    color:#28c78f;
-}
 
 /*                                               Partie entête                                                           */
 
@@ -245,8 +242,8 @@ li:before{
 @media(max-width: 1000px) {
 
     .image_kit{
-        height:700px;
-        width:500px
+        height:600px;
+        width:450px
     }
 
     #image_accessoire{
