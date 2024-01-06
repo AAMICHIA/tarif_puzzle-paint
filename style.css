@@ -221,10 +221,10 @@ p{
 
     .image_kit{
         height:700px;
-        width:450px
+        width:500px
     }
 
-    #kit_manuelle_texte{
+    .kit_manuelle_texte{
         width:1000px;
         margin-top: 10px;
     }
@@ -270,7 +270,7 @@ p{
     }
 
     .p_desc{
-        font-size:10px;
+        font-size:8px;
     }
 
     
