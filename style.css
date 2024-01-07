@@ -310,12 +310,13 @@ li{
 
     }
 
+    
     #banner_menu{
         text-decoration: none;
-        margin-left: 230px;
+        margin-left: 40px;
         grid-template-columns: 1fr 1fr ;
         display: grid;
-        grid-gap: 100px;
+        grid-gap: 60px;
     }
 
     #footer{
