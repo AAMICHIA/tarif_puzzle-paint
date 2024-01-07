@@ -340,7 +340,7 @@ li{
         grid-template-columns: 1fr 1fr;
         margin-top:60px;
         margin-bottom:40px;
-        grid-gap:70px;
+        grid-gap:5px;
     }
 
 }
