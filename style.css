@@ -1,6 +1,6 @@
 body{
     background-color: white;
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: 500;
     font-size: clamp(11px,5vw,18px);
 }
